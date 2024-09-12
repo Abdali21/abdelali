@@ -1,4 +1,4 @@
-import profile from "../../public/profile.png";
+import profile from "../../public/logo.png";
 import Image from "next/image";
 
 const HeroImage = () => {
@@ -9,8 +9,8 @@ const HeroImage = () => {
         alt="logo"
         loading="eager"
         priority
-        height={500}
-        width={500}
+        height={300}
+        width={300}
       />
     </div>
   );

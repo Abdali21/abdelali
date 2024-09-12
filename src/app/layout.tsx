@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   description: "Welcome to the portfolio website of Abdelali Houmaidi, showcasing projects and skills in web development.",
   icons: {
     icon: [
-      { url: "/profile.png", type: "image/png" },
+      { url: "/logo.png", type: "image/png" },
     ],
   },
 };
