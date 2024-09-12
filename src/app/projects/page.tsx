@@ -9,13 +9,13 @@ const projectsPage = () => {
   const Projects = [
     {
       title: "Houmaidi Shop",
-      url:"/houmaidishop.png",
+      url:"/houmaidi.png",
       tags: ["Nextjs", "Tailwindcss", "Typescript"],
       link: "https://houmaidishop.vercel.app/",
     },
     {
       title: "Learning Platform",
-      url:"/learning.png",
+      url:"/learningPlatform.png",
       tags: ["Nextjs", "Tailwindcss", "Typescript"],
       link: "https://learning-platform-lovat-three.vercel.app/",
     },
@@ -27,7 +27,7 @@ const projectsPage = () => {
     },
     {
       title: "burger-project",
-      url:"/burger.png",
+      url:"/burgerProject.png",
       tags: ["Nextjs", "Tailwindcss", "Typescript"],
       link: "https://burger-project-woad.vercel.app/",
     },
