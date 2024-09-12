@@ -21,7 +21,7 @@ const projectsPage = () => {
     },
     {
       title: "airbnb-clone",
-      url:"/airbnb.png",
+      url:"/airbnbClone.png",
       tags: ["Nextjs", "Tailwindcss", "Typescript"],
       link: "https://next-bnb-nu.vercel.app/",
     },
