@@ -18,6 +18,11 @@ const rubik = Rubik({
 export const metadata: Metadata = {
   title: "Abdelali Houmaidi",
   description: "Welcome to the portfolio website of Abdelali Houmaidi, showcasing projects and skills in web development.",
+  icons: {
+    icon: [
+      { url: "/profile.png", type: "image/png" },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -27,9 +32,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <head>
-         <link rel="icon" type="image/png" sizes="48x48" href="/profile.png" />
-      </head>
       <body className={`${poppins.variable} ${rubik.variable}`}>
         <main
           className={cn(
