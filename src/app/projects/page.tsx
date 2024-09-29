@@ -2,38 +2,45 @@ import FramerWrapper from "@/components/FramerWrapper";
 import Heading from "@/components/Heading";
 import ProjectCards from "@/components/ProjectsCard";
 import { Badge } from "@/components/ui/badge";
+import { link } from "fs";
 import { Layers } from "lucide-react";
 
 const projectsPage = () => {
-  
+
   const Projects = [
     {
       title: "Houmaidi Shop",
-      url:"/houmaidi.png",
+      url: "/houmaidi.png",
       tags: ["Nextjs", "Tailwindcss", "Typescript"],
       link: "https://houmaidishop.vercel.app/",
     },
     {
       title: "Learning Platform",
-      url:"/learningPlatform.png",
+      url: "/learningPlatform.png",
       tags: ["Nextjs", "Tailwindcss", "Typescript"],
       link: "https://learning-platform-lovat-three.vercel.app/",
     },
     {
       title: "airbnb-clone",
-      url:"/airbnbClone.png",
+      url: "/airbnbClone.png",
       tags: ["Nextjs", "Tailwindcss", "Typescript"],
       link: "https://next-bnb-nu.vercel.app/",
     },
     {
       title: "burger-project",
-      url:"/burgerProject.png",
+      url: "/burgerProject.png",
       tags: ["Nextjs", "Tailwindcss", "Typescript"],
       link: "https://burger-project-woad.vercel.app/",
     },
-    
+    {
+      title: "real-estate",
+      url: "/estate.png",
+      tags: ["Next.js", "Tailwindcss", "Typescript"],
+      link: "https://real-estate-beryl-nu.vercel.app"
+    }
+
   ];
-  
+
   return (
     <div className="h-full w-full relative flex flex-col items-start gap-5 overflow-hidden">
       <Badge className=" gap-2">
