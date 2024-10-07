@@ -40,7 +40,7 @@ const projectsPage = () => {
     },
     {
       title: "Homi",
-      url: "/homi.png",
+      url: "/homii.png",
       tags: ["Next.js", "Tailwindcss", "Typescript"],
       link: "https://homi-phi.vercel.app"
     }
