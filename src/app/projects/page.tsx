@@ -37,8 +37,13 @@ const projectsPage = () => {
       url: "/estate.png",
       tags: ["Next.js", "Tailwindcss", "Typescript"],
       link: "https://real-estate-beryl-nu.vercel.app"
+    },
+    {
+      title: "Homi",
+      url: "/homi.png",
+      tags: ["Next.js", "Tailwindcss", "Typescript"],
+      link: "https://homi-phi.vercel.app"
     }
-
   ];
 
   return (
